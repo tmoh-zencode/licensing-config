@@ -13,7 +13,7 @@ spring:
   datasource:
     driver-class-name: "org.postgresql.Driver"
     url: "jdbc:postgresql://localhost:5432/eagle_eye_local"
-    username: "postgres"
-    password: "p0stgr@s"
+    username: "defaultuser"
+    password: "password123"
     testWhileIdle: true
     validationQuery: "SELECT 1"
